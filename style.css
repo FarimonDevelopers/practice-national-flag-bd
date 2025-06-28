@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all_div {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    background: lightgray;
+    padding: 50px;
+}
+.main_div {
+    width: 600px;
+    height: 350px;
+    background: green; /* পতাকার সবুজ রঙ */
+    position: relative; /* বৃত্ত পজিশনের জন্য */
+}
+.red_circle {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bambo {
+    height: 700px;         /* যত নিচে লম্বা চাও */
+    width: 10px;
+    background: brown;
+    margin-right: 10px;
+    margin-top: -20px;         /* একদম উপর থেকে শুরু হবে */
+}
+
